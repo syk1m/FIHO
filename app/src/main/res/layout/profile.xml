@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account"
+        android:textStyle="bold"
+        android:textColor="@color/purple_500"/>
+
+    <View
+        android:layout_width = "match_parent"
+        android:layout_height = "2dp"
+        android:background = "@color/purple_500"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/aname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Seoyoon Kim"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/aemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="seoyoonsummerkim@gmail.com"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/aid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ID number"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/aps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="*****"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/personalinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personal Information"
+        android:textStyle="bold"
+        android:textColor="@color/purple_500"
+        android:layout_marginTop="20dp"/>
+
+    <View
+        android:layout_width = "match_parent"
+        android:layout_height = "2dp"
+        android:background = "@color/purple_500"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/photo"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Photo"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/aphoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/birthdate"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Birth Date"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/abd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2004. 08. 25"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/edub"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Education"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/aedub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="B.A. English"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/hcountry"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Home Country"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/ahcountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="South Korea"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nationality"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Nationality"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/anation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Korean"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/family"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Family"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/afam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="names"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/skil"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Skills &amp; Expertise"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/askill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="list of skills and expertise"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lang"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Language"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/alang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="list of languages and proficiency"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/myactivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Activity"
+        android:textStyle="bold"
+        android:textColor="@color/purple_500"
+        android:layout_marginTop="20dp"/>
+
+    <View
+        android:layout_width = "match_parent"
+        android:layout_height = "2dp"
+        android:background = "@color/purple_500"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/home"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/ahome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Home Address"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/group"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Umbrella Group"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/agroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="name of group"/>
+    </LinearLayout>
+
+</LinearLayout>
