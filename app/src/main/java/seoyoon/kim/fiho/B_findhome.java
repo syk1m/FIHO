@@ -5,18 +5,17 @@ import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.LinearLayout;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 //기본적으로 class를 잡아주는 역
-public class Findhome_map extends AppCompatActivity {
+public class B_findhome extends AppCompatActivity {
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
         super.onCreate(savedInstanceState, persistentState);
-        setContentView(R.layout.findhome_map);
+        setContentView(R.layout.b_findhome);
 
         //[Type] [variable] = [value];
         //Button var = findViewById(R.id.[내가 쓸 component의 id]);
@@ -39,7 +38,7 @@ public class Findhome_map extends AppCompatActivity {
                 //가야할 page는 Test.class가 가지고 있다고 할게.
                 //Intent를 정의 할거야, intent = 페이지 사이의 event
                 //Intent var = new Intent ([지금 class].this, [가야할 class].class);
-                Intent it = new Intent(Findhome_map.this, Profile.class);
+                Intent it = new Intent(B_findhome.this, Profile.class);
 
                 //이제 앞에서 정의한 intent를 시작할거야, 함수를 사용해서(17번째 줄처럼)
                 startActivity(it);

@@ -12,7 +12,7 @@ public class Profile extends AppCompatActivity {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
         super.onCreate(savedInstanceState, persistentState);
-        setContentView(R.layout.menu);
+        setContentView(R.layout.a_menu);
 
         LinearLayout go_to_find_hope = findViewById(R.id.findHope);
     }
