@@ -11,26 +11,29 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.FIHO" >
+        <activity android:name=".A_menu"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.Main"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
 
-
-    <activity android:name=".B_findhome">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN"/>
-            <category android:name="android.intent.category.LAUNCHER"/>
-        </intent-filter>
-    </activity>
-
-    <activity android:name=".Profile">
-        <intent-filter>
-            <action android:name="android.intent.action.VIEW"/>
-        </intent-filter>
-    </activity>
-
-    <activity android:name=".A_menu">
+        <activity android:name=".Profile"
+            android:exported="true">
         <intent-filter>
             <action android:name="android.intent.action.VIEW"/>
         </intent-filter>
     </activity>
+
+        <activity android:name=".Map_webview"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+
+
 
     </application>
 

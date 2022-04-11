@@ -11,14 +11,14 @@ import android.webkit.WebViewClient;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MyWebView extends AppCompatActivity {
+public class Map_webview extends AppCompatActivity {
     @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.webview);
+        setContentView(R.layout.map_webview);
         WebView myWebView = findViewById(R.id.webviewid);
-        myWebView.loadUrl("https://www.example.com/");
+        myWebView.loadUrl("https://gongga.lx.or.kr/portal/mapMain.do");
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         myWebView.setWebViewClient(new WebViewClientClass());

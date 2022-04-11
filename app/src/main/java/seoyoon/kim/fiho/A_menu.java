@@ -28,18 +28,8 @@ public class A_menu extends AppCompatActivity {
         mfhome.setOnClickListener(new View.OnClickListener() { //btn한테 달린 clicklistener, 이 format은 복붙해서 쓰면 돼. 문법이 복잡해서 설명은 지금 안할게.
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(A_menu.this, B_findhome.class);
+                Intent it = new Intent(A_menu.this, Map_webview.class);
                 startActivity(it);
-                finish();
-
-                /*
-                *myWebView.loadUrl("https://www.google.com/");
-                WebSettings webSettings = myWebView.getSettings();
-                webSettings.setJavaScriptEnabled(true);
-                myWebView.setWebViewClient(new WebViewClientClass());
-                *
-                *
-                * */
             }
         });
 
@@ -48,9 +38,8 @@ public class A_menu extends AppCompatActivity {
         mfhope.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(A_menu.this,Findhope_menu.class);
+                Intent it = new Intent(A_menu.this,B_findhope_menu.class);
                 startActivity(it);
-                finish();
             }
         });
 
@@ -68,5 +57,5 @@ public class A_menu extends AppCompatActivity {
         */
 
     }
-}
+
 
