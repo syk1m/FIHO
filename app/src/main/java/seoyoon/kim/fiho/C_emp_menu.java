@@ -18,14 +18,14 @@ public class C_emp_menu extends AppCompatActivity {
 
         //[Type] [variable] = [value];
         //Button var = findViewById(R.id.[내가 쓸 component의 id]);
-        TextView mfhome = findViewById(R.id.groupbtn);
+        TextView empgroup = findViewById(R.id.groupbtn);
 
         //button을 눌렀을 때 일어나는 일을 'event'라고 부르고, 그 event를 조정 하는 것을 'handling'한다고 표현해
         //button을 눌렀을 때의 event handle 하는 code를 쓸건데, 외울 필요는 없어. 어디에서 handling 하는 지만 알면 돼
         //먼저, 우리가 쓸 Button을 앞으로 code에서는 btn 으로 쓸 수 있어 (28줄에서 define 해두었기 때문에)
         //그리고 그 btn에서 일어나는 일 중 하나이기 때문에 btn.function() 형식으로 쓸거야 (.을 쓴다는 것이 point야)
 
-        mfhome.setOnClickListener(new View.OnClickListener() {
+        empgroup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent it = new Intent(C_emp_menu.this, D_emp_group.class);
@@ -33,18 +33,18 @@ public class C_emp_menu extends AppCompatActivity {
             }
         });
 
-        TextView mfhope = findViewById(R.id.commbtn);
+        TextView empcomm = findViewById(R.id.commbtn);
 
-        mfhope.setOnClickListener(new View.OnClickListener() {
+        empcomm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(C_emp_menu.this,D_emp_community.class);
+                Intent it = new Intent(C_emp_menu.this, D_emp_community.class);
                 startActivity(it);
             }
         });
 
 
     }
-
+}
 
 
