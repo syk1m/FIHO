@@ -48,7 +48,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="We aim to "
+                    android:text="I look forward to using my skills to make a positive impact."
                     android:fontFamily="@font/nanumroundr"/>
             </LinearLayout>
 
@@ -70,7 +70,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="We have a vision to"
+                    android:text="Small actions, big impact."
                     android:fontFamily="@font/nanumroundr"/>
             </LinearLayout>
 
@@ -92,7 +92,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="List of Members"
+                    android:text="Seoyoon Kim"
                     android:fontFamily="@font/nanumroundr"/>
             </LinearLayout>
 
@@ -173,7 +173,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="progress bar"
+                    android:text="80 percent"
                     android:fontFamily="@font/nanumroundr"/>
             </LinearLayout>
 
