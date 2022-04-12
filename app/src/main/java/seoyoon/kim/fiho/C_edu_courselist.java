@@ -30,6 +30,24 @@ public class C_edu_courselist extends AppCompatActivity {
             }
         });
 
+        TextView c2fullpage = findViewById(R.id.course2);
+        c2fullpage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(C_edu_courselist.this, Course2_webview.class);
+                startActivity(it);
+            }
+        });
+
+        TextView c3fullpage = findViewById(R.id.course3);
+        c3fullpage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(C_edu_courselist.this, Course3_webview.class);
+                startActivity(it);
+            }
+        });
+
         WebView c1webview = findViewById(R.id.c1wv);
         c1webview.loadUrl("https://www.econedu.go.kr/mec/ots/brd/list.do?mnuBaseId=MNU0000123&tplSer=3");
         WebView c2webview = findViewById(R.id.c2wv) ;
