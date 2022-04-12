@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Group"
+                android:textColor="@color/purple_500"
+                android:fontFamily="@font/nanumroundeb"/>
+
+            <View
+                android:layout_width = "match_parent"
+                android:layout_height = "2dp"
+                android:background = "@color/purple_500"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/goal"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Goal"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/nanumroundb"/>
+
+                <TextView
+                    android:id="@+id/ggoal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="We aim to "
+                    android:fontFamily="@font/nanumroundr"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/vision"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Vision"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/nanumroundb"/>
+
+                <TextView
+                    android:id="@+id/gvision"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="We have a vision to"
+                    android:fontFamily="@font/nanumroundr"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/member"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Members"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/nanumroundb"/>
+
+                <TextView
+                    android:id="@+id/gmember"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="List of Members"
+                    android:fontFamily="@font/nanumroundr"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/myproject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Project"
+                android:textColor="@color/purple_500"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/nanumroundeb"/>
+
+            <View
+                android:layout_width = "match_parent"
+                android:layout_height = "2dp"
+                android:background = "@color/purple_500"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/projecttitle"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Project Title"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/nanumroundb"/>
+
+                <TextView
+                    android:id="@+id/mprojecttitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="FiHo"
+                    android:fontFamily="@font/nanumroundr"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/topic"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Topic"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/nanumroundb"/>
+
+                <TextView
+                    android:id="@+id/mtopic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Help migrants find home and hope for migrants in South Korea"
+                    android:fontFamily="@font/nanumroundr"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/fund"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Funds"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/nanumroundb"/>
+
+                <TextView
+                    android:id="@+id/mfund"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="progress bar"
+                    android:fontFamily="@font/nanumroundr"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

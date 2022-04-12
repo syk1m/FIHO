@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:background="#9DC7C8">
+
+        <TextView
+            android:id="@+id/edubtn"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#9DC7C8"
+            android:textSize="32dp"
+            android:textColor="#000000"
+            android:text="Education"
+            android:clickable="true"
+            android:fontFamily="@font/nanumroundeb"/>
+
+        <TextView
+            android:id="@+id/edudes"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#9DC7C8"
+            android:text="Entrepreneurship, Management &amp; Finance"
+            android:fontFamily="@font/nanumroundr"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="vertical"
+        android:id = "@+id/emp"
+        android:clickable="true"
+        android:layout_marginTop="10dp"
+        android:background="#9DC7C8">
+
+        <TextView
+            android:id="@+id/empbtn"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#9DC7C8"
+            android:textSize="32dp"
+            android:textColor="#000000"
+            android:text="Employment"
+            android:clickable="true"
+            android:fontFamily="@font/nanumroundeb"/>
+
+        <TextView
+            android:id="@+id/empdes"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#9DC7C8"
+            android:text="My Group &amp; Community"
+            android:fontFamily="@font/nanumroundr"/>
+    </LinearLayout>
+</LinearLayout>
