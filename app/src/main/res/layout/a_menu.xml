@@ -21,11 +21,11 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:background="#E1E1E1"
-            android:textStyle="bold"
             android:textSize="32dp"
             android:textColor="#000000"
             android:text="Find Home"
-            android:clickable="true"/>
+            android:clickable="true"
+            android:fontFamily="@font/NanumSquareRoundEB" />
 
         <TextView
             android:id="@+id/fhomedes"
@@ -33,8 +33,8 @@
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:background="#E1E1E1"
-            android:textStyle="italic"
-            android:text="Map &amp; Housing" />
+            android:text="Map &amp; Housing"
+            android:fontFamily="@font/NanumSquareRoundR"/>
     </LinearLayout>
 
     <LinearLayout
@@ -56,7 +56,8 @@
             android:textSize="32dp"
             android:textColor="#000000"
             android:text="Find Hope"
-            android:clickable="true"/>
+            android:clickable="true"
+            android:fontFamily="@font/NanumSquareRoundEB"/>
 
         <TextView
             android:id="@+id/fhopedes"
@@ -64,7 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:background="#E1E1E1"
-            android:textStyle="italic"
-            android:text="Employment, Education &amp; Finance" />
+            android:text="Employment, Education &amp; Finance"
+            android:fontFamily="@font/NanumSquareRoundR"/>
     </LinearLayout>
 </LinearLayout>
