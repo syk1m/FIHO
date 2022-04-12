@@ -22,7 +22,8 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textColor="@color/purple_500"
-        android:fontFamily="@font/NanumSquareRoundEB"/>
+        android:fontFamily="@font/nanumroundeb"
+        android:text="Account"/>
 
     <View
         android:layout_width = "match_parent"
@@ -41,7 +42,7 @@
             android:layout_height="wrap_content"
             android:text="Name"
             android:textColor="@color/black"
-            android:fontFamily="@font/NanumSquareRoundB"/>
+            android:fontFamily="@font/nanumroundb"/>
 
         <TextView
             android:id="@+id/aname"
@@ -49,7 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Seoyoon Kim"
-            android:fontFamily="@font/NanumSquareRoundR"/>
+            android:fontFamily="@font/nanumroundr"/>
     </LinearLayout>
 
     <LinearLayout
@@ -63,7 +64,7 @@
             android:layout_height="wrap_content"
             android:text="Email"
             android:textColor="@color/black"
-            android:fontFamily="@font/NanumSquareRoundB"/>
+            android:fontFamily="@font/nanumroundeb"/>
 
         <TextView
             android:id="@+id/aemail"
@@ -71,7 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="seoyoonsummerkim@gmail.com"
-            android:fontFamily="@font/NanumSquareRoundR"/>
+            android:fontFamily="@font/nanumroundr"/>
     </LinearLayout>
 
     <LinearLayout
@@ -85,7 +86,7 @@
             android:layout_height="wrap_content"
             android:text="ID"
             android:textColor="@color/black"
-            android:fontFamily="@font/NanumSquareRoundB"/>
+            android:fontFamily="@font/nanumroundb"/>
 
         <TextView
             android:id="@+id/aid"
@@ -93,7 +94,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="ID number"
-            android:fontFamily="@font/NanumSquareRoundR"/>
+            android:fontFamily="@font/nanumroundr"/>
     </LinearLayout>
 
     <LinearLayout
@@ -107,7 +108,7 @@
             android:layout_height="wrap_content"
             android:text="Password"
             android:textColor="@color/black"
-            android:fontFamily="@font/NanumSquareRoundB"/>
+            android:fontFamily="@font/nanumroundb"/>
 
         <TextView
             android:id="@+id/aps"
@@ -115,7 +116,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="*******"
-            android:fontFamily="@font/NanumSquareRoundR"/>
+            android:fontFamily="@font/nanumroundr"/>
     </LinearLayout>
 
     <TextView
@@ -125,7 +126,7 @@
         android:text="Personal Information"
         android:textColor="@color/purple_500"
         android:layout_marginTop="20dp"
-        android:fontFamily="@font/NanumSquareRoundEB"/>
+        android:fontFamily="@font/nanumroundeb"/>
 
     <View
         android:layout_width = "match_parent"
@@ -144,7 +145,7 @@
             android:layout_height="wrap_content"
             android:text="Photo"
             android:textColor="@color/black"
-            android:fontFamily="@font/NanumSquareRoundB"/>
+            android:fontFamily="@font/nanumroundb"/>
 
         <ImageView
             android:id="@+id/aphoto"
@@ -166,7 +167,7 @@
             android:layout_height="wrap_content"
             android:text="Birth Date"
             android:textColor="@color/black"
-            android:fontFamily="@font/NanumSquareRoundB"/>
+            android:fontFamily="@font/nanumroundb"/>
 
         <TextView
             android:id="@+id/abd"
@@ -174,7 +175,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="2004. 08. 25"
-            android:fontFamily="@font/NanumSquareRoundR"/>
+            android:fontFamily="@font/nanumroundr"/>
     </LinearLayout>
 
     <LinearLayout
@@ -188,7 +189,7 @@
             android:layout_height="wrap_content"
             android:text="Gender"
             android:textColor="@color/black"
-            android:fontFamily="@font/NanumSquareRoundB"/>
+            android:fontFamily="@font/nanumroundb"/>
 
         <TextView
             android:id="@+id/agender"
@@ -196,7 +197,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Female"
-            android:fontFamily="@font/NanumSquareRoundR"/>
+            android:fontFamily="@font/nanumroundr"/>
     </LinearLayout>
 
     <LinearLayout
@@ -210,7 +211,7 @@
             android:layout_height="wrap_content"
             android:text="Home Country"
             android:textColor="@color/black"
-            android:fontFamily="@font/NanumSquareRoundB"/>
+            android:fontFamily="@font/nanumroundb"/>
 
         <TextView
             android:id="@+id/ahcountry"
@@ -218,7 +219,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="South Korea"
-            android:fontFamily="@font/NanumSquareRoundR"/>
+            android:fontFamily="@font/nanumroundr"/>
     </LinearLayout>
 
     <LinearLayout
@@ -232,7 +233,7 @@
             android:layout_height="wrap_content"
             android:text="Nationality"
             android:textColor="@color/black"
-            android:fontFamily="@font/NanumSquareRoundB"/>
+            android:fontFamily="@font/nanumroundb"/>
 
         <TextView
             android:id="@+id/anation"
@@ -240,7 +241,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Korean"
-            android:fontFamily="@font/NanumSquareRoundR"/>
+            android:fontFamily="@font/nanumroundr"/>
     </LinearLayout>
 
     <LinearLayout
@@ -254,7 +255,7 @@
             android:layout_height="wrap_content"
             android:text="Family"
             android:textColor="@color/black"
-            android:fontFamily="@font/NanumSquareRoundB"/>
+            android:fontFamily="@font/nanumroundb"/>
 
         <TextView
             android:id="@+id/afam"
@@ -262,7 +263,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="names"
-            android:fontFamily="@font/NanumSquareRoundR"/>
+            android:fontFamily="@font/nanumroundr"/>
     </LinearLayout>
 
     <LinearLayout
@@ -276,7 +277,7 @@
             android:layout_height="wrap_content"
             android:text="Education"
             android:textColor="@color/black"
-            android:fontFamily="@font/NanumSquareRoundB"/>
+            android:fontFamily="@font/nanumroundb"/>
 
         <TextView
             android:id="@+id/aedub"
@@ -284,7 +285,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="B.A. English"
-            android:fontFamily="@font/NanumSquareRoundR"/>
+            android:fontFamily="@font/nanumroundr"/>
     </LinearLayout>
 
     <LinearLayout
@@ -298,7 +299,7 @@
             android:layout_height="wrap_content"
             android:text="Skills &amp; Expertise"
             android:textColor="@color/black"
-            android:fontFamily="@font/NanumSquareRoundB"/>
+            android:fontFamily="@font/nanumroundb"/>
 
         <TextView
             android:id="@+id/askill"
@@ -306,7 +307,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="list of skills and expertise"
-            android:fontFamily="@font/NanumSquareRoundR"/>
+            android:fontFamily="@font/nanumroundr"/>
     </LinearLayout>
 
     <LinearLayout
@@ -320,7 +321,7 @@
             android:layout_height="wrap_content"
             android:text="Language"
             android:textColor="@color/black"
-            android:fontFamily="@font/NanumSquareRoundB"/>
+            android:fontFamily="@font/nanumroundb"/>
 
         <TextView
             android:id="@+id/alang"
@@ -328,7 +329,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="list of languages and proficiency"
-            android:fontFamily="@font/NanumSquareRoundR"/>
+            android:fontFamily="@font/nanumroundr"/>
     </LinearLayout>
 
     <TextView
@@ -339,7 +340,7 @@
         android:textStyle="bold"
         android:textColor="@color/purple_500"
         android:layout_marginTop="20dp"
-        android:fontFamily="@font/NanumSquareRoundEB"/>
+        android:fontFamily="@font/nanumroundeb"/>
 
     <View
         android:layout_width = "match_parent"
@@ -358,7 +359,7 @@
             android:layout_height="wrap_content"
             android:text="Home"
             android:textColor="@color/black"
-            android:fontFamily="@font/NanumSquareRoundB"/>
+            android:fontFamily="@font/nanumroundb"/>
 
         <TextView
             android:id="@+id/ahome"
@@ -366,7 +367,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Home Address"
-            android:fontFamily="@font/NanumSquareRoundR"/>
+            android:fontFamily="@font/nanumroundr"/>
     </LinearLayout>
 
     <LinearLayout
@@ -380,7 +381,7 @@
             android:layout_height="wrap_content"
             android:text="Umbrella Group"
             android:textColor="@color/black"
-            android:fontFamily="@font/NanumSquareRoundB"/>
+            android:fontFamily="@font/nanumroundb"/>
 
         <TextView
             android:id="@+id/agroup"
@@ -388,7 +389,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="name of group"
-            android:fontFamily="@font/NanumSquareRoundR"/>
+            android:fontFamily="@font/nanumroundr"/>
     </LinearLayout>
 
         </LinearLayout>
